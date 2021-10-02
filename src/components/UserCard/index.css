@@ -1,0 +1,26 @@
+.card {
+  margin: 2rem 2rem 2rem 0;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card__title {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.btn {
+  cursor: pointer;
+  width: 35%;
+  outline: 1px solid black;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
