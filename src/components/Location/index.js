@@ -1,7 +1,6 @@
 import React from "react";
 
 function index(userData) {
-  console.log(userData);
   return (
     <div className="location">
       <p>Username: {userData.location.username}</p>

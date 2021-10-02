@@ -45,7 +45,7 @@ const Modal = ({ closeModal, userData }) => {
     return () => {
       document.removeEventListener("click", hideModal);
     };
-  }, []);
+  });
 
   return (
     <StyledModal>
